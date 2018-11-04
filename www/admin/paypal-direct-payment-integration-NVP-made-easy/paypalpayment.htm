@@ -1,0 +1,46 @@
+<div class="contents" style="width:70%;  margin:0px auto;">
+<form name="payform" action="paypalpayment.php" method="post">
+<div class="maindiv">
+	<div class="leftbox">
+	<div class="leftone" style="color: #0099FF"><strong>Personal Details</strong></div>
+	<div class="rightone" style="width:80px;">&nbsp;</div>	
+	<div class="leftone">First Name</div>
+	<div class="rightone"><input name="firstname" type="text" value="John"></div>
+	<div class="leftone">Last Name</div>
+	<div class="rightone"><input name="lastname" type="text" value="Doe"></div>
+	<div class="leftone">Email</div>
+	<div class="rightone"><input name="email" type="text" value="sample@example.com"></div>
+	<div class="leftone">Address</div>
+	<div class="rightone"><input name="address" type="text" value="1 Main St"></div>
+	<div class="leftone">City</div>
+	<div class="rightone"><input name="city" type="text" value="San Jose"></div>
+	<div class="leftone">State/Zip</div>
+	<div class="rightone"><input name="state" type="text" maxlength="2" style="width:30px;" value="CA">
+	<span style="font:8pt arial;">eg. NY</span>
+	<input name="zip" type="text" style="width:75px;" value="95131"></div>
+	</div>	
+	<div class="rightbox">
+	<div class="leftone" style="color: #0099FF"><strong>Payment Details</strong></div>
+	<div class="rightone" style="width:80px;">&nbsp;</div>		
+	<div class="leftone">Card Type</div>
+	<div class="rightone"><select name="cardtype" >
+						<option value="visa" selected="selected">Visa</option>
+						<option value="MasterCard">Master Card</option>
+						<option value="AmericanExpress">American Express</option>
+						</select>
+	</div>	
+	<div class="leftone">Cardholder Name</div>	
+	<div class="rightone"><input name="cardholder" type="text" value="John Doe"></div>	
+	<div class="leftone">Card Number</div>	
+	<div class="rightone"><input name="cardnumber" type="text" value="4066901366000455"></div>	
+	<div class="leftone">Expiration <span style=" font:7pt arial; color:gray;">[ mm / yyyy ]</span></div>	
+	<div class="rightone"><input name="cardmonth" class="sel" type="text" style="width:40px;" value="01" />&nbsp;
+						<input type="text" name="cardyear" class="sel" style=" width:98px;" value="2012"></div>	
+	<div class="leftone">CVV Number</div>	
+	<div class="rightone"><input name="cardcvv" type="text" value="962"></div>
+	<div class="leftone" style="width:255px; text-align:right;"><input type="submit" value="Pay Now" style="border:1px outset gray; width:100px;"></div>
+	</div>	
+	<div class="clear"></div>
+</div>
+</form>
+</div>

@@ -1,0 +1,14 @@
+
+.tj_wrapper ul li a img{
+	opacity:1.0;
+	list-style:none;
+}
+.tj_wrapper ul li a img:hover{
+	display:block;
+	border:none;
+	list-style:none;
+	opacity:0.7;
+	-moz-box-shadow:2px 2px 4px #8e8e8e;
+	-webkit-box-shadow:2px 2px 4px #8e8e8e;
+}
+

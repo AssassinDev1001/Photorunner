@@ -1,0 +1,36 @@
+[10-Jul-2014 05:36:23 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid integer: 70.0' in /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php:152
+Stack trace:
+#0 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php(212): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php(114): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiResource.php(113): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/anaadit/public_html/weddingfollow/stripe/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php on line 152
+[10-Jul-2014 05:44:02 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid positive integer' in /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php:152
+Stack trace:
+#0 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php(212): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php(114): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiResource.php(113): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/anaadit/public_html/weddingfollow/stripe/charge.php(17): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php on line 152
+[10-Jul-2014 05:44:18 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid positive integer' in /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php:152
+Stack trace:
+#0 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php(212): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php(114): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiResource.php(113): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/anaadit/public_html/weddingfollow/stripe/charge.php(17): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php on line 152
+[10-Jul-2014 05:44:23 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid positive integer' in /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php:152
+Stack trace:
+#0 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php(212): Stripe_ApiRequestor->handleApiError('{?  "error": {?...', 400, Array)
+#1 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php(114): Stripe_ApiRequestor->_interpretResponse('{?  "error": {?...', 400)
+#2 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiResource.php(113): Stripe_ApiRequestor->request('post', '/v1/charges', Array)
+#3 /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/anaadit/public_html/weddingfollow/stripe/charge.php(17): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/anaadit/public_html/weddingfollow/stripe/lib/Stripe/ApiRequestor.php on line 152

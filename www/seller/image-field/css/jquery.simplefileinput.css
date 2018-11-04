@@ -1,0 +1,53 @@
+/**
+* SimpleFileInput 0.1 - A jQuery plugin to customise your file inputs
+* http://github.com/s43/Simple-file-input/
+* Requirements : jQuery 1.7+
+* 
+* :: Copyright (c) 2014 SAID ASSEMLAL
+*
+* Dual licensed under the MIT and GPL licenses.
+*/
+.get_new_idea2 {
+    display: inline-block !important;
+    padding: 0px 25px !important;
+    margin-bottom: 0 !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height: 1.42857143 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    background-image: none !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px !important;
+    font-family: arial;
+}
+
+.get_new_idea3 {
+    color: #fff !important;
+    background-color: #337ab7 !important;
+    font-family: arial;
+}
+
+.get_new_idea1 {
+    position: relative !important;
+    overflow: hidden !important;
+    height: 48px !important;
+    font-family: arial;
+}
+
+.get_new_idea1 input.get_new_idea4 {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 20px !important;
+    cursor: pointer !important;
+    opacity: 0 !important;
+    height: 48px !important;
+	width:100%;
+	font-family: arial;
+	border-radius: 4px !important;
+}

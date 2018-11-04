@@ -1,0 +1,63 @@
+    /*  
+	http://www.freshdesignweb.com/beautiful-image-hover-effects-with-jquery-css.html 
+	*/
+	 .freshdesignweb{width:950px; margin:0 auto;}
+	 .freshdesignweb a:link{text-decoration:none;}
+     .freshdesignweb article{ float:left; width:100%; height:220px; } /*cursor:pointer;opacity:0.5;*/
+	/*portfolio*/
+	.fdw-background{ background-color:rgba(0,0,0,0.7);opacity:0; width:100%; height:100%; }
+	.fdw-background h4{font-size:16px; text-align:center; padding:100px 40px 0; }
+	.fdw-background .fdw-port{ text-align:center; padding:0 40px 0; }
+	.fdw-background .fdw-port a{ padding:8px 15px; font-size:1em; }
+	/*subtitle*/
+	.fdw-subtitle{ font-size:0.8em; margin-top:-20px; color:#0CF; }
+	.fdw-subtitle a{ color:#F90; }
+	/*columns*/
+	.c-two{ width:275px !important; margin-left:7px !important; }
+	/*align*/
+	.a-center{ text-align:center; }
+	/*border*/
+	.border{ border:1px solid #CCC; margin:-1px;}
+	/*link buttons*/
+    .fdw-port a{ 
+		background-color:#336699; 
+		color:#fff; 
+		border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		-o-border-radius:3px;
+		-webkit-box-shadow: 0 3px 0 #0f3963, 3px 5px 3px #333;
+		-moz-box-shadow: 0 3px 0 #0f3963, 3px 5px 3px #333;
+		box-shadow: 0 3px 0 #0f3963, 3px 5px 3px #333;
+		-o-box-shadow: 0 3px 0 #0f3963, 3px 5px 3px #333;
+		text-shadow:0 1px 1px #000;
+	}
+    .fdw-port a:hover{ 
+		background-color:#f2f2f2; 
+		color:#336699 !important; 
+		text-shadow:0 1px 1px #ccc;
+		-webkit-box-shadow: 0 3px 0 #ccc, 3px 5px 3px #333;
+		-moz-box-shadow: 0 3px 0 #ccc, 3px 5px 3px #333;
+		box-shadow: 0 3px 0 #ccc, 3px 5px 3px #333;
+		-o-box-shadow: 0 3px 0 #ccc, 3px 5px 3px #333;
+	}
+
+@media (max-width: 1198px) {
+.c-two{ width:230px !important; margin-left:4px; }
+}
+@media (max-width: 1050px) {
+.c-two{ width:315px !important; }
+}
+@media (max-width: 991px) {
+.c-two{ width:241px !important; }
+}
+@media (max-width: 800px) {
+.c-two{ width:360px !important; }
+}
+@media (max-width: 360px) {
+.c-two{ width:335px !important; }
+}
+@media (max-width: 320px) {
+.c-two{ width:292px !important; }
+}
+	

@@ -1,0 +1,8 @@
+#Options +FollowSymLinks -MultiViews
+
+#RewriteEngine On
+#RewriteBase /www/
+
+ErrorDocument 404 /404.php
+
+

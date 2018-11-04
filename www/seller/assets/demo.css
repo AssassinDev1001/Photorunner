@@ -1,0 +1,60 @@
+@import url(normalize.css);
+
+
+
+.container.section .code, 
+.container.section .demo {
+	float: left;
+	width: 100%;
+	padding: 20px 50px;
+} 
+
+.container.section .demo {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.container.section .code { background: none; }
+
+.container.section .code h2 { margin-top: 0px; color: #777; }
+
+.container label {
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	padding: 10px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.container label:hover {
+	background: rgba(255,255,255,0.1);
+}
+
+.container label > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.container label > span {
+	margin-left: 8px;
+	font-size: 20px;
+}
+
+
+.container #status {
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+
+.container#example4 span + .custom-checkbox {
+	display: inline-block;
+	margin-left: 15px;
+}
+

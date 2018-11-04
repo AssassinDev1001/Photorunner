@@ -1,0 +1,35 @@
+ul#tabs {
+  list-style-type: none;
+  margin: 0 0 0px 0;
+  padding: 0;
+  text-align: center; }
+  ul#tabs li {
+    display: inline-block;
+    background-color: #fff;
+    color:#00a2b5;
+    border:1px solid #00a2b5;
+    width:250px;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size:16px;
+    margin-bottom: 4px;
+    cursor: pointer; }
+    ul#tabs li:hover {
+      background-color: #; }
+    ul#tabs li.active {
+      background-color: #00a2b5;
+      color:#fff; }
+
+ul#tab {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  ul#tab li {
+    display: none;
+    padding: 30px;}
+    ul#tab li.active {
+      display: block; }
+    ul#tab li h2 {
+      font-weight: 400;
+      margin-bottom: 30px;
+      padding-bottom: 5px; }
